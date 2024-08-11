@@ -42,6 +42,7 @@ PRIVATE_KEY="your private key"
 - Create Token.sol file
 - Copy this code and paste there
 - Feel free to modify token name and token symbol
+- Check hardhat.config.ts and fill your private key on " accounts: [`0x${process.env.PRIVATE_KEY}`] "
 
 ```
 // SPDX-License-Identifier: MIT
